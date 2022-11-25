@@ -1,0 +1,57 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+    color: black;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+    
+    color: black;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    width: 230px;
+    position: relative;
+    border-bottom: 1px solid gray;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: static;
+    border-style: none;
+  }
+  
+  .icon {
+    color: black;
+  }
+  
+  .position{
+    position: relative;
+  }
+  .eye {
+    position: absolute;
+  top: 0.8em;
+    right: -18em;
+  }

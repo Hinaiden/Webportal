@@ -1,0 +1,97 @@
+/* .create{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  transition: left 1s;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+.active {
+  left: 0;
+} */
+
+.icon {
+  cursor: pointer;
+position: absolute;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 75vh;
+  margin: 0 2em;
+}
+.secondUpper{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.nav button {
+
+  border-radius: 10px;
+  border: none;
+  background-color: lightblue;
+  color: white;
+  font-size: 15px;
+}
+
+.center {
+  width: 600px;
+  padding-left: 10em;
+}
+
+.upper {
+  display: flex;
+}
+
+.upper p {
+  margin-right: 10px;
+  margin: 10px 0;
+}
+
+.title {
+  font-size: 30px;
+  text-align: left;
+}
+
+.cross {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+
+.body label, input {
+  font-size: 25px;
+  width: 80vh;
+  text-align: left;
+  border: none;
+  
+}
+
+.body input{
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(216, 213, 213);
+
+}
+
+.button {
+  margin: 30px 0;
+  padding: 15px;
+  border: none;
+  width: 200px;
+  color: white;
+  background: lightblue;
+  border-radius: 10px;
+}
